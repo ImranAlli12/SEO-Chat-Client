@@ -82,7 +82,7 @@ const Signin = () => {
             </h1>
             <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit} action="#">
 
-              <CustomInput // Use the CustomInput component
+              <CustomInput 
                 label="Your Email"
                 value={formData.email}
                 onChange={handleChange}

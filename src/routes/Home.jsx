@@ -7,7 +7,7 @@ import { useDispatch } from "react-redux";
 // http://localhost:3000/
 // const ENDPOINT="https://chatc.onrender.com"
 // const ENDPOINT="http://localhost:8001/"
-const ENDPOINT="https://seo-chat-server-p5rk-qpy0l85be-imran-alis-projects-fa6dc8c3.vercel.app/"
+const ENDPOINT="https://seo-chat-server.vercel.app"
 
 const Home = () => {
   const [socketConnected, setSocketConnected] = useState(false);

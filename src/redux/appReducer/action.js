@@ -1,7 +1,8 @@
 import axios from "axios";
 import * as types from "./actionType";
 
-const END_POINT = "https://seo-chat-server-p5rk-qpy0l85be-imran-alis-projects-fa6dc8c3.vercel.app"
+// const END_POINT = "http://localhost:8001"
+const END_POINT ="https://seo-chat-server.vercel.app"
 
 const jwtToken = () => {
   const userData = JSON.parse(localStorage.getItem("chat-app-login-user-data"));
